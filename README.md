@@ -35,8 +35,6 @@ We use the [Solar_Panels_Condition](https://huggingface.co/datasets/Louisnguyen/
 - **Training Set**: ~11,209 bounding boxes.
 - **Validation Set**: ~2,899 bounding boxes.
 
-Some images have segmentation labels, but only bounding boxes are used here. If you want to adapt segmentation tasks, you’ll need to align the data appropriately.
-
 **Download the dataset** and place it in the `dataset/` folder (or update the `data.yaml` file to point to where you store the data).
 
 ---
