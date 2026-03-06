@@ -63,7 +63,6 @@ python image_test.py
   ```bash
   python image_test.py
   ```
-- The script will print metrics and show detection results on the image.
 
 ### 2. Real-Time Webcam Inference
 
@@ -72,6 +71,5 @@ python image_test.py
   ```bash
   python webcam.py
   ```
-- You’ll see a live feed with bounding boxes and class labels for any detected objects.
 - **Press ‘q’** to quit, or **‘s’** to save a screenshot.
 ---
