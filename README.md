@@ -1,5 +1,5 @@
 # Y-S:A Model for Solar Panel Health Monitoring
-# Published in The Visual Computer
+
 This project is built on the YOLOv11 framework and proposes a lightweight enhanced model tailored for small-defect detection on photovoltaic (PV) panels. Our research addresses the critical challenges of missed detections, heavy model size, and poor real-time performance in complex outdoor PV scenarios, with key contributions focused on the following three aspects:
 - Lightweight Feature Fusion A customized C2f-Lite module is integrated into the Backbone of the model. By adopting depthwise separable convolution and a high channel compression ratio, it reduces the number of parameters by 18.9% while retaining the ability to extract weak features of small defects (e.g., bird droppings and tiny cracks), achieving a balance between model lightweight design and feature extraction capability.
 - Small-Object Detection Enhancement A high-resolution detection branch is added to the Neck, combined with K-means anchor box clustering optimization for PV-specific small defects. In addition, a PV-oriented data augmentation strategy is constructed to alleviate the scarcity of small-defect samples and outdoor environmental interference, significantly improving the detection accuracy of low-pixel-occupancy targets.
